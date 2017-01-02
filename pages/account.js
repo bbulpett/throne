@@ -32,3 +32,31 @@ export default ({ url: { query: { id } } }) => {
     </div>
   )
 }
+
+const styles = {
+  main: {
+    padding: '50px'
+  },
+
+  header: {
+    font: '15px Monaco',
+    textAlign: 'center'
+  },
+
+  panel: {
+    float: 'right',
+    marginRight: '140px',
+    width: '300px'
+  },
+
+  singlePhoto: {
+    border: '1px solid #999',
+    width: '500px',
+    height: '500px',
+    float: 'left'
+  },
+
+  heading: {
+    font: '15px Monaco'
+  }
+}
